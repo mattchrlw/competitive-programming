@@ -8,10 +8,17 @@ C++ code is typically compiled with
 g++ a.cpp -o a.out && ./a.out
 ```
 
-and `.cpp` files are initialised with
+This can be invoked using the shortcut script `./compile.sh`. An example of copying input from the web and running a test case might be something like.
+
+```
+pbpaste | ./compile.sh csesfi/bit-strings.cpp
+```
+
+`.cpp` files are initialised with
 
 ```cpp
 #include <bits/stdc++.h>
+#define MODN 1000000007;
 
 using namespace std;
 

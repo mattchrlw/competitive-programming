@@ -85,5 +85,11 @@
         "unordered_set": "cpp",
         "utility": "cpp",
         "valarray": "cpp"
-    }
+    },
+    "autoSnippet.snippets": [
+        {
+            "pattern": "**/*.cpp",
+            "snippet": "cp"
+        },
+    ]
 }
